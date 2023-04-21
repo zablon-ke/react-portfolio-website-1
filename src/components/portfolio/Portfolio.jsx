@@ -9,7 +9,7 @@ const data = [
     id: 1,
     image: IMG1,
     title: 'Personal Portfolio Website',
-    github: 'https://github.com/Gitthuma/george-githuma-portfolio-website',
+    github: 'https://github.com/zablon-ke/react-portfolio-website-1',
     demo: 'zablonmuthoka.com'
   },
 
