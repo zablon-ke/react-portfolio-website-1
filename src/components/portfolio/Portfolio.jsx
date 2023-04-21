@@ -10,14 +10,14 @@ const data = [
     image: IMG1,
     title: 'Personal Portfolio Website',
     github: 'https://github.com/zablon-ke/react-portfolio-website-1',
-    demo: 'zablonmuthoka.com'
+    demo: 'https://zablon-muthoka.vercel.app/'
   },
 
   {
     id: 2,
     image: IMG2,
     title: 'School Management System',
-    github: 'https://github.com/Gitthuma/cup-of-uji-kenya-website',
+    github: 'https://github.com/zablon-ke/WpTopschool-Shool-Mnagement-System',
     demo: 'https://www.cupofujikenya.org/'
   },
 
