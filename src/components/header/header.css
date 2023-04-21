@@ -1,0 +1,105 @@
+/*Style whole header component*/
+header {
+    height: 100vh;
+    padding-top: 2rem;
+    overflow: hidden;
+}
+
+/*Style header__container class*/
+.header__container {
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+/* ========================= CTA ======================== */
+
+/*Style cta class buttons*/
+.cta {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
+/* ========================= HEADER SOCIALS ======================== */
+
+/*Style header__socials icons*/
+.header__socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+}
+
+/*Add a line after the icons*/
+.header__socials::after {
+    content: '';
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary);
+}
+
+/* ========================= IMAGE ======================== */
+
+/*Style the image*/
+.my__img {
+    background: linear-gradient(var(--color-primary), transparent);
+    width: 20rem;
+    height: 20rem;
+    position: absolute;
+    left: calc(50% - 10rem);
+    margin-top: 4rem;
+    border-radius: 50%;
+    overflow: hidden;
+    padding: 2rem 1.5rem 1.5rem 1.5rem;
+}
+
+/* ========================= CTA ======================== */
+
+/*Style cta class buttons*/
+.cta__2 {
+    margin-top: 21rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
+/* ========================= SCROLL DOWN ======================== */
+
+/*Style Scroll down*/
+.scroll__down {
+    position: absolute;
+    right: -2.3rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+/*Add media queries for responsiveness*/
+
+/* ========================= MEDIA QUERIES (MEDIUM DEVICES) ======================== */
+
+@media screen and (max-width: 1024px) {
+    header {
+        height: 68vh;
+    }
+    
+}
+
+/* ========================= MEDIA QUERIES (SMALL DEVICES) ======================== */
+
+@media screen and (max-width: 600px) {
+    header {
+        height: 100vh;
+    }
+
+    .header__socials, .scroll__down {
+        display: none;
+    }
+    
+}
