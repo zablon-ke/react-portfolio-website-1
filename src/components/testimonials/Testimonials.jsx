@@ -19,7 +19,7 @@ const data = [
     avatar: AVTR1,
     name: 'Randy Davo',
     title: 'FullStack Developer',
-    review: 'Thank you for your time once again George. I really enjoyed our meeting. And thanks for all you shared with me. I can confidently say I learned a lot during the mentorship session. I will start implementing all that we have discussed as I look forward to our next session.'
+    review: 'Thank you for your time once again Zablon. I really enjoyed our meeting. And thanks for all you shared with me. I can confidently say I learned a lot during the mentorship session. I will start implementing all that we have discussed as I look forward to our next session.'
   },
 
   {
@@ -40,7 +40,7 @@ const data = [
     avatar: AVTR4,
     name: 'Nermina Ljevakovic',
     title: 'Chief Investment Officer, TechBridge Invest',
-    review: 'Thanks for the discussions today George Githuma Njogu. Valuable perspectives shared. Welcome, the TechBridge Invest community of startups and partners will greatly benefit from your knowledge and experience. We are very excited to have you on board.'
+    review: 'Thanks for the discussions today Zablon Mouwo Muthoka. Valuable perspectives shared. Welcome, the TechBridge Invest community of startups and partners will greatly benefit from your knowledge and experience. We are very excited to have you on board.'
   }
 
 ]
